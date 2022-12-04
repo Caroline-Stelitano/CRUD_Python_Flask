@@ -1,0 +1,22 @@
+<!DOCTYPE html> 
+<html>
+  <body>
+    <form action = "{{ url_for('inserirpessoa') }}" method = "POST">
+     <h3>Insira uma pessoa:</h3>
+     CPF<br>
+     <input type = "text" name = "cpf" /></br>
+      
+     Nome<br>
+     <input type = "text" name = "nome" /></br>
+
+     Sobrenome<br>
+     <input type = "text" name = "sobrenome" /></br>
+     
+     Data de Nascimento<br>
+     <input type = "text" name = "data_nasc" /><br>
+
+     <input type="hidden" name="token" value="xyz02">
+     <input type="submit" value="Submit"> 
+    </form>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html> 
+<html>
+  <body>
+    <form action = "{{ url_for('atualizarpessoa', cpf=cpf) }}" method = "POST">
+      <h2>Atualizar pessoa:</h2>
+      CPF<br>
+      <input type = "text" name = "cpf" value="{{cpf}}"/></br>
+      Nome<br>
+      <input type = "text" name = "nome" value="{{nome}}"/></br>
+      Sobrenome<br>
+      <input type = "text" name = "sobrenome" value="{{sobrenome}}"/></br>
+      Data de Nascimento<br>
+      <input type = "text" name = "data_nasc" value="{{data_nasc}}"/><br>
+      <input type="hidden" name="token" value="xyz02">
+      <input type="submit" value="Submit"> 
+    </form>
+  </body>
+</html>
