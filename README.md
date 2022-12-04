@@ -23,5 +23,5 @@ Foi implementado um sistema de verificação de token necessário para executar 
 
 ## Projeto
 
-Link no Replit: https://replit.com/@carolegal/ProvaFinal-v1#main.py
+Link no Replit: https://replit.com/@carolegal/ProvaFinal-v1#main.py  
 https://provafinal-v1.carolegal.repl.co/
