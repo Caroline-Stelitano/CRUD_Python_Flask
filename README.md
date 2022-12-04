@@ -11,7 +11,7 @@ Exemplo de microsserviços em Flask referente a requisições HTTP manipulando u
 Enpoints implementados para testes. Entrada e saída de dados em formato JSON:
 
 -  /pessoas [GET]: retorna com a lista de todas as pessoas
--  /pessoa/cpf [GET]: retorna os dados de uma pessoa pelo CPF. Exemplo: /pessoa/38746283574
+-  /pessoa/cpf [GET]: retorna os dados de uma pessoa pelo CPF. Exemplo: /pessoa/38746283574?token=xyz02
 -  /inserirpessoa [GET]: retorna o formulário. 
 -  /inserirpessoa [POST]: uma nova pessoa é inserida caso o CPF já não esteja cadastrado no banco. 
 - /atualizarpessoa/cpf [GET]:  retorna o formulário com o CPF solicitado, caso o CPF seja encontrado. 
